@@ -3,7 +3,7 @@ The script can be used to put the Utilized Heap Memory of a Java Process as Clou
 
 ## Setup
 - Java Process is running for ApacheDS Service.
-- An IAM Role has been attached with the EC2 Server which will allow the server to put metric in Cloudwatch.
+- An IAM Role has been attached to the EC2 Server which will allow the server to put metric in Cloudwatch.
 - Node v8.11 is installed. 
   - curl --silent --location https://rpm.nodesource.com/setup_8.x | sudo bash -
 
