@@ -22,3 +22,4 @@ I have scheduled the script using CronJob. The following command can be used in 
 The script will execute every minute and put the used heap memory to the Cloudwatch metric. The names can be modified in the script.
 
 From the AWS Console, an alarm can be configured for the graphed UsedHeap Metric that can be used to get notified if the Java Process is utilising more heap memory.
+![Alarm](images/cloudwatch_alarm.png)
